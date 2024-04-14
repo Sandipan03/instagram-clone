@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "firebase": "^10.8.1",
+    "react-instagram-embed": "^3.0.0",
+    "react-social-media-embed": "^2.5.13",
+    "uuid": "^9.0.1"
+  }
+}

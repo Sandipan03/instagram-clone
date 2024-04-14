@@ -1,0 +1,41 @@
+*{
+  margin: 0;
+}
+.app{
+  background-color: #fafafa;
+  /* height: 100vh; */
+
+}
+.app_posts{
+  padding: 20px;
+  display:flex;
+  justify-content: center;
+}
+.app_postsRight{
+  margin-left: 20px;
+}
+.app_header{
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: white;
+  padding: 20px;
+  border-bottom: 1px solid lightgray;
+  object-fit: contain;
+  display: flex;
+  justify-content: space-between;
+  /* object fit: contain is used to keep the aspect ratio of the image fixed, no stretching,etc */
+}
+.app_headerImage{
+  height: 50px;
+  object-fit: contain;
+}
+.app_signup{
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+.notify_login{
+  text-align: center;
+  /* bottom: 20px; */
+}
