@@ -196,18 +196,16 @@ useEffect(()=>{
       </div>
       <div className="app_posts">
         <div className="app_postsLeft">
+          {/* {console.log(posts)} */}
        {
+    
         posts.map(({id,post})=>(
           // console.log(post),
           <Post key={id} postId={id} user={user} username={post.username} caption={post.caption} imageUrl={post.imageUrl}/>
         ))
       }
         </div>
-        <div className="app_postsRight">
-        <div style={{ display: 'flex', justifyContent: 'center' }}>
-  <InstagramEmbed url="https://www.instagram.com/p/CrEacukyNCc/" width={328} captioned />
-</div>
-        </div>
+       
       
       </div>
      
